@@ -16,20 +16,49 @@
 
 </head>
 
+<header>
+   <!-- <div class="header">
+        <h1></h1>
+      
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Services</a></li>
 
-<nav>
-  <div id="navbar">
-  <a href="#">Home</a>
-  <a href="#section-c">Portfolio</a>
-  <a href="#section-b">Pricing</a>
-  <a href="#footer">Contact</a>
-</div>
-</nav>
+        </ul>
+      </div>  -->
 
 
 
 
-<body>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+ 
+    </header>
+
+
+
+
+
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <section class="hero" id="section-a">
             <div class="hero-inner">
@@ -37,91 +66,161 @@
                       
         </div>        
     </section>
-    <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec nibh molestie, efficitur leo sed, viverra nunc. Donec vehicula accumsan erat facilisis ullamcorper. Donec commodo quis dui nec placerat. Donec mi orci, scelerisque eget nisl ac, hendrerit condimentum odio. Nam dictum odio eget quam tempus, a mattis odio ornare. Nullam auctor libero ut libero suscipit, ut accumsan nunc condimentum. Donec ullamcorper maximus sapien quis egestas.</p>
-
-        <p>Mauris viverra scelerisque lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ultrices enim sit amet elit tincidunt maximus. Suspendisse vitae pellentesque lectus. Duis commodo leo suscipit augue mollis, non venenatis dolor ullamcorper. Duis tincidunt scelerisque lacus, vel vehicula leo consectetur vel. Duis posuere nisl non odio consequat ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        
-        <p>Etiam a leo nec mi blandit euismod. Etiam fringilla odio vitae risus ornare, id bibendum velit consequat. Fusce posuere risus sollicitudin condimentum ultrices. Fusce gravida, purus eget laoreet mattis, velit sapien ultrices diam, id dapibus erat leo id quam. Maecenas quis risus convallis, placerat elit non, iaculis tortor. Nullam porttitor magna risus, quis bibendum metus tincidunt in. Etiam vel ligula ac risus mattis tincidunt vel sit amet ante. Morbi et viverra ligula. Ut ac dignissim nisi, condimentum imperdiet mauris. Pellentesque ut ipsum vel diam tristique faucibus eu et lectus. Maecenas posuere neque non lacus bibendum, sit amet pharetra justo semper. Sed mi risus, tempor sit amet ligula eget, varius pretium est. Sed a odio in orci accumsan pretium suscipit ut quam.</p>
-    </main>
-
-
     
 
-    <section class="pricing-table" id="section-b">
-      <div class="container">
-          <div class="block-heading">
-            <h2>Pricing Table</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-          </div>
-          <div class="row justify-content-md-center">
-              <div class="col-md-5 col-lg-4">
-                  <div class="item">
-                      <div class="heading">
-                          <h3>BASIC</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <div class="features">
-                          <h4><span class="feature">Full Support</span> : <span class="value">No</span></h4>
-                          <h4><span class="feature">Duration</span> : <span class="value">30 Days</span></h4>
-                          <h4><span class="feature">Storage</span> : <span class="value">10GB</span></h4>
-                      </div>
-                      <div class="price">
-                          <h4>$25</h4>
-                      </div>
-                      <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
-                  </div>
-              </div>
-              <div class="col-md-5 col-lg-4">
-                  <div class="item">
-                      <div class="ribbon">Best Value</div>
-                      <div class="heading">
-                          <h3>PRO</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <div class="features">
-                          <h4><span class="feature">Full Support</span> : <span class="value">Yes</span></h4>
-                          <h4><span class="feature">Duration</span> : <span class="value">60 Days</span></h4>
-                          <h4><span class="feature">Storage</span> : <span class="value">50GB</span></h4>
-                      </div>
-                      <div class="price">
-                          <h4>$50</h4>
-                      </div>
-                      <button class="btn btn-block btn-primary" type="submit">BUY NOW</button>
-                  </div>
-              </div>
-              <div class="col-md-5 col-lg-4">
-                  <div class="item">
-                      <div class="heading">
-                          <h3>PREMIUM</h3>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <div class="features">
-                          <h4><span class="feature">Full Support</span> : <span class="value">Yes</span></h4>
-                          <h4><span class="feature">Duration</span> : <span class="value">120 Days</span></h4>
-                          <h4><span class="feature">Storage</span> : <span class="value">150GB</span></h4>
-                      </div>
-                      <div class="price">
-                          <h4>$150</h4>
-                      </div>
-                      <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
 
-<section id="section-c">
+    <div class="welcome">
+        <div class="welcome-inner">
+        <h1>Welcome!</h1>
+      <p> I specialize in custom web solutions for small businesses. I create static/brochure sites, Wordpress sites (custom built themes and  theme customizations), and can implement basic backend functionality, such as signup forms and contact forms. I focus on optimization (SEO), and mobile-first responsiveness, rather than complexity in my works. 
+           
+      </p>
+      <div class="languageicons">
+      <i class="fab fa-wordpress fa-5x"></i>
+      <i class="fab fa-html5 fa-5x"></i>
+      <i class="fab fa-css3-alt fa-5x"></i>
+      <i class="fab fa-bootstrap fa-5x"></i>
+      <i class="fab fa-js fa-5x"></i>
+      <i class="fab fa-php fa-5x"></i>
+      </div>
+    </div>
+</div>
+
+
+
+<div id="section-b">
+    <div class="features-boxed">
+        <div class="container-fluid">
+            <div class="intro">
+                <h2 class="text-center">Features </h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-map-marker icon"></i>
+                        <h3 class="name">Works everywhere</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-clock-o icon"></i>
+                        <h3 class="name">Always available</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-list-alt icon"></i>
+                        <h3 class="name">Customizable </h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-leaf icon"></i>
+                        <h3 class="name">Organic </h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-plane icon"></i>
+                        <h3 class="name">Fast </h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-phone icon"></i>
+                        <h3 class="name">Mobile-first</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
   
-</section>
+
+
+
+
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900%7cRaleway:300,400,500,600,700" rel="stylesheet">
+<body>
+    <section class="services pt-100 pb-50" id="services">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 mx-auto text-center">
+                  <div class="section-title mb-100">
+                     <p></p>
+                     <h4>my services</h4>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-laptop"></i>
+                     <h4>Web Design </h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-gears"></i>
+                     <h4>Web Development</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-mobile"></i>
+                     <h4>Responsive Design</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-magic"></i>
+                     <h4>Graphic Designg</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-pencil"></i>
+                     <h4>Creative Design</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-fa fa-lightbulb-o"></i>
+                     <h4>Branding</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>      
+
+
+
 
     
 
     <div class="footer-basic">
       <footer>
-          <div class="social" id="footer"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a><a href="#"><i class="fab fa-github fa-2x"></i></a><a href="#"><i class="fab fa-linkedin fa-2x"></i></a><a href="#"><i class="icon ion-social-facebook"><i class="fab fa-cc-paypal fa-2x"></i></a></div>
+          <div class="social" id="footer">
+              
+            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+           
+            <a href="#"><i class="fab fa-github fa-2x"></i></a>
+            
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            
+            <a href="#"><i class="icon ion-social-facebook"><i class="fab fa-cc-paypal fa-2x"></i></a></div>
           <ul class="list-inline">
               <li class="list-inline-item"><a href="#">Home</a></li>
               <li class="list-inline-item"><a href="#">Services</a></li>

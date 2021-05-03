@@ -8,7 +8,7 @@
 
 
 
-body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -16,12 +16,27 @@ body {
     
 }
 
-a:hover{
-  border:1px solid red;  
-  
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
 }
 
-
+#myBtn:hover {
+  background-color: #555;
+}
+  
 
 
 
@@ -42,55 +57,286 @@ align-items: center;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment:fixed;
   
 
 
    
 }
 
+.welcome {
+  background-color: white;
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+}
+
+  
+
+.welcome p {
+  font-size: 1.18rem;
+  line-height: 1.6;
+
+
+
+}
+
+.welcome h1{
+  font-weight: normal;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.welcome-inner {
+  max-width: 760px;
+
+
+}
 
 
 
 
 /* Style the navbar */
-#navbar {
+/*#navbar {  
   overflow: hidden;
   background-color: background-color:rgba(0, 0, 0, 0.1);
   z-index: 100;
 }
 
 /* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color:blue;
+/*#navbar a {
+  float: right;
+  display: inline-block;
+  color:cornsilk;
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:black;
+  font-family:sans-serif;
+  opacity:0.6;
+ 
+}*/
+
+.header {
+  padding: 0 45px;
+  background-color:rgba(0, 0, 0, 0.1);
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  opacity: 1.6;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  
+}
+
+/*.nav a {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+  font-size: 24px;
+  margin-left:40px;
+  
+  
+  }
+
+.nav a:hover {
+  color: #c5cae9;
  
 }
 
-/* Page content */
-.content {
-  padding: 16px;
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position:fixed;
+  margin-top: 80px;
+  
+  
+  
+  
+  
+
+  
+ 
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
+.nav li {
+  margin-left: 20px;
+  
+}*/
+.menu-wrap {
   position: fixed;
   top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.menu-wrap .toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.menu-wrap .hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hamburger Line */
+.menu-wrap .hamburger > div {
+  position: relative;
+  flex: none;
   width: 100%;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+/* Hamburger Lines - Top & Bottom */
+.menu-wrap .hamburger > div::before,
+.menu-wrap .hamburger > div::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+/* Moves Line Down from top*/
+.menu-wrap .hamburger > div::after {
+  top: 10px;
+}
+
+/* Toggler Animation */
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+}
+
+/* Turns Lines Into X */
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* Rotate On Hover When Checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
+
+/* Show Menu */
+.menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div {
+  opacity: 1;
+  transition:  opacity 0.4s ease 0.1s;
+  background:rgba(0, 0, 0, 0.1);   
+}
+
+.menu-wrap .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: left; /*align items to center if wanting menu items in center of page*/
+  justify-content: left;/*justify content to center if wanting menu items in center of page*/
+}
+
+.menu-wrap .menu > div {
+  /*background: var(--overlay-color);*/
+  border-radius: 50%;
+  width: 200vw;
+  height: 200vw;
+  display: flex;
+  flex: none;
+  align-items: left;/*align items to center if wanting menu items in center of page*/
+  justify-content: left;/*justify content to center if wanting menu items in center of page*/
+  /*transform: scale(0);*/
+  transition: all 0.4s ease;
+}
+
+.menu-wrap .menu > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  list-style: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;  
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.4s ease;
 }
 
 
 
 
+
+
+
+
+.container-fluid {
+    /*Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/hourglass.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    display: grid;
+    
+       
+   
+}
 
 
 .hero h1 {
@@ -101,6 +347,7 @@ align-items: center;
       margin-bottom: 0.5em;
       color: white;
 }
+
 
 
 .section {
@@ -114,104 +361,139 @@ h2 {
 color: white;
 }
 
-
-
-
-
-
-
-/*pricing table*/
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
-.pricing-table{
-  background-color: #eee;
-  font-family: 'Montserrat', sans-serif;
+.languageicons i {
+  margin-left: 40px;
+  
+  
 }
 
-.pricing-table .block-heading {
-  padding-top: 50px;
-  margin-bottom: 40px;
-  text-align: center; 
+
+
+
+
+/*services*/
+.section-title {
+	position: relative
+}
+.section-title p {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.intro .text-center {
+  color: #ccc;
+}
+.section-title h4 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: capitalize;
+	position: relative;
+	padding-bottom: 20px;
+	display: inline-block
+}
+.section-title h4:before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 2px;
+	background-color: #d8d8d8;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+.section-title h4:after {
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background-color: #FF7200;
+	left: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -25px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.mb-100{
+    margin-bottom:100px;
+}
+.services {
+	background-color: #ffffff;]
+  background-image:  ;
+}
+.single-service {
+	position: relative;
+	text-align: center;
+	margin-bottom: 50px;
+	-webkit-transition: .3s;
+	transition: .3s;
+	padding: 30px 20px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16)
+}
+.single-service:before {
+	position: absolute;
+	width: 0;
+	height: 0;
+	background-color: #FF7200;
+	left: 0;
+	top: 0;
+	content: "";
+	-webkit-transition: .3s;
+	transition: .3s
+}
+.single-service:after {
+	position: absolute;
+	width: 0;
+	height: 0;
+	background-color: #FF7200;
+	right: 0;
+	bottom: 0;
+	content: "";
+	-webkit-transition: .3s;
+	transition: .3s
+}
+.single-service:hover:after,
+.single-service:hover:before {
+	width: 50%;
+	height: 2px;
+	-webkit-transition: .3s;
+	transition: .3s
+}
+.single-service:hover {
+	box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.10)
+}
+.single-service i.fa {
+	font-size: 20px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ddd;
+	line-height: 60px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	-webkit-transition: .3s;
+	transition: .3s
+}
+.single-service:hover i.fa {
+	background-color: #FF7200;
+	color: #fff;
+	border-color: #FF7200;
+	border-radius: 0;
+}
+.single-service h4 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.single-service p {
+	font-size: 15px;
+	line-height: 1.8;
 }
 
-.pricing-table .block-heading h2 {
-  color: #3b99e0;
-}
-
-.pricing-table .block-heading p {
-  text-align: center;
-  max-width: 420px;
-  margin: auto;
-  opacity: 0.7; 
-}
-
-.pricing-table .heading {
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-}
-
-.pricing-table .item {
-  background-color: #ffffff;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
-  border-top: 2px solid #5ea4f3;
-  padding: 30px;
-  overflow: hidden;
-  position: relative; 
-}
-
-.pricing-table .col-md-5:not(:last-child) .item {
-  margin-bottom: 30px; 
-}
-
-.pricing-table .item button {
-  font-weight: 600; 
-}
-
-.pricing-table .ribbon {
-  width: 160px;
-  height: 32px;
-  font-size: 12px;
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
-  background: #4dbe3b;
-  transform: rotate(45deg);
-  position: absolute;
-  right: -42px;
-  top: 20px;
-  padding-top: 7px; 
-}
-
-.pricing-table .item p {
-  text-align: center;
-  margin-top: 20px;
-  opacity: 0.7; 
-}
-
-.pricing-table .features .feature {
-  font-weight: 600; }
-
-.pricing-table .features h4 {
-  text-align: center;
-  font-size: 18px;
-  padding: 5px; 
-}
-
-.pricing-table .price h4 {
-  margin: 15px 0;
-  font-size: 45px;
-  text-align: center;
-  color: #2288f9; 
-}
-
-.pricing-table .buy-now button {
-  text-align: center;
-  margin: auto;
-  font-weight: 600;
-  padding: 9px 0; 
-}
 
 
 
@@ -228,6 +510,7 @@ color: white;
   background-color:#dbdada;
   color:#4b4c4d;
   margin-top: 100px;
+  
   
 }
 
@@ -288,9 +571,85 @@ color: white;
 
 
 
+/*features*/
+
+.features-boxed {
+  color:#313437;
+  background-color:#eef4f7;
+  
+}
+
+.features-boxed p {
+  color:#7d8285;
+}
+
+.features-boxed h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .features-boxed h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.features-boxed .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.features-boxed .intro p {
+  margin-bottom:0;
+}
+
+.features-boxed .features {
+  padding:50px 0;
+}
+
+.features-boxed .item {
+  text-align:center;
+}
+
+.features-boxed .item .box {
+  text-align:center;
+  padding:30px;
+  background-color:#fff;
+  margin-bottom:30px;
+  opacity: 0.6;
+}
+
+.features-boxed .item .icon {
+  font-size:60px;
+  color:#1485ee;
+  margin-top:20px;
+  margin-bottom:35px;
+}
+
+.features-boxed .item .name {
+  font-weight:bold;
+  font-size:18px;
+  margin-bottom:8px;
+  margin-top:0;
+  color:inherit;
+}
+
+.features-boxed .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
 
 
 
+
+
+/*lightbox*/
 
 
   
