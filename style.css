@@ -33,7 +33,7 @@ html, body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color:orangered;
+  background-color: rgb(0, 0, 0);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -75,38 +75,16 @@ align-items: center;
   background-color: white;
   padding: 60px 45px;
   display: flex;
-  justify-content: center;
+  justify-content: center;  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
   
-
-.welcome p {
-  font-size: 1.18rem;
-  line-height: 2.0;
-  color: #eef4f7;
-  font-weight: 600;
-  
-
-
-
+				
 }
 
-.welcome h1{
-  font-weight: normal;
-  font-size: 4rem;
-  margin: 0;
-  color:#eef4f7;
-  margin-bottom: 20px;
-}
-
-.welcome-inner {
-  max-width: 760px;
-}
 
 
 
@@ -170,7 +148,7 @@ align-items: center;
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease;
-  background: orangered;
+  background: rgb(255, 255, 255);
   
 }
 
@@ -353,6 +331,13 @@ color: white;
     
     
 }
+#portfolio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .section-title {
 	position: relative
 }
@@ -389,7 +374,7 @@ color: white;
 	content: "";
 	width: 50px;
 	height: 2px;
-	background-color: #FF7200;
+	background-color: #fff;
 	left: 0;
 	bottom: 0;
 	left: 50%;
@@ -414,7 +399,7 @@ color: white;
 	margin-bottom: 50px;
 	-webkit-transition: .3s;
 	transition: .3s;
-	padding: 30px 20px;
+	padding: 30px 20px 30px 20px;
 	background:linear-gradient(rgba(202, 202, 202, 0.5),rgba(94, 94, 94, 0.5))
  
 }
@@ -422,7 +407,7 @@ color: white;
 	position: absolute;
 	width: 0;
 	height: 0;
-	background-color: #FF7200;
+	background-color: #1600db;
 	left: 0;
 	top: 0;
 	content: "";
@@ -433,7 +418,7 @@ color: white;
 	position: absolute;
 	width: 0;
 	height: 0;
-	background-color: #FF7200;
+	background-color:  #1600db;
 	right: 0;
 	bottom: 0;
 	content: "";
@@ -461,12 +446,7 @@ color: white;
 	-webkit-transition: .3s;
 	transition: .3s
 }
-.single-service:hover i.fa {
-	background-color: #FF7200;
-	color: #fff;
-	border-color: #FF7200;
-	border-radius: 0;
-}
+
 .single-service h4 {
 	font-size: 20px;
 	font-weight: 400;
@@ -475,8 +455,8 @@ color: white;
   color: #eef4f7;
 }
 .single-service p {
-	font-size: 15px;
-	line-height: 1.8;
+	font-size: 16px;
+	line-height: 2.0;
   color: #eef4f7;
 }
 
@@ -499,8 +479,8 @@ color: white;
   padding:40px 0;
   background-color:#dbdada;
   color:#4b4c4d;
-  margin-top: 200px;
-  padding:1px
+  margin-top: 10px;
+  padding:1px;
   
   
   
@@ -547,6 +527,7 @@ color: white;
   color:inherit;
   opacity:0.75;
   margin-left:25px;
+  margin-top:10px;
 }
 
 .footer-basic .social > a:hover {
@@ -561,7 +542,9 @@ color: white;
   margin-bottom:0;
 }
 
-
+.list-inline {
+  margin-top: 15px;
+}
 
 
 
@@ -573,16 +556,18 @@ color: white;
   
 }
 
+
 .features-boxed p {
   color:#7d8285;
 }
 
-.features-boxed h2 {
-  font-weight:bold;
-  margin-bottom:40px;
-  padding-top:40px;
-  color:inherit;
+h2 {
+  font-weight: bold;
+  font-size: 2.0rem;
+  text-decoration: underline;
+  
 }
+
 
 @media (max-width:767px) {
   .features-boxed h2 {
@@ -618,12 +603,7 @@ color: white;
   opacity: 0.6;
 }
 
-.features-boxed .item .icon {
-  font-size:60px;
-  color:#1485ee;
-  margin-top:20px;
-  margin-bottom:35px;
-}
+
 
 .features-boxed .item .name {
   font-weight:bold;
@@ -634,7 +614,7 @@ color: white;
 }
 
 .features-boxed .item .description {
-  font-size:15px;
+  font-size:20px;
   margin-top:15px;
   margin-bottom:20px;
 }
