@@ -13,6 +13,13 @@ html, body {
     padding: 0;
     font-family: sans-serif;
     overflow-x: hidden;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     
 }
 
@@ -26,7 +33,7 @@ html, body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: black;
+  background-color:orangered;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -69,13 +76,21 @@ align-items: center;
   padding: 60px 45px;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
   
 
 .welcome p {
   font-size: 1.18rem;
-  line-height: 1.6;
+  line-height: 2.0;
+  color: #eef4f7;
+  font-weight: 600;
+  
 
 
 
@@ -85,39 +100,15 @@ align-items: center;
   font-weight: normal;
   font-size: 4rem;
   margin: 0;
+  color:#eef4f7;
+  margin-bottom: 20px;
 }
 
 .welcome-inner {
   max-width: 760px;
-
-
 }
 
 
-
-
-/* Style the navbar */
-/*#navbar {  
-  overflow: hidden;
-  background-color: background-color:rgba(0, 0, 0, 0.1);
-  z-index: 100;
-}
-
-/* Navbar links */
-/*#navbar a {
-  float: right;
-  display: inline-block;
-  color:cornsilk;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  background-color:black;
-  font-family:sans-serif;
-  opacity:0.6;
- 
-}*/
 
 .header {
   padding: 0 45px;
@@ -136,43 +127,6 @@ align-items: center;
   
 }
 
-/*.nav a {
-  color: #FFF;
-  text-decoration: none;
-  display: block;
-  transition: all 0.3s ease-out;
-  font-size: 24px;
-  margin-left:40px;
-  
-  
-  }
-
-.nav a:hover {
-  color: #c5cae9;
- 
-}
-
-.nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  position:fixed;
-  margin-top: 80px;
-  
-  
-  
-  
-  
-
-  
- 
-}
-
-.nav li {
-  margin-left: 20px;
-  
-}*/
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -216,6 +170,8 @@ align-items: center;
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease;
+  background: orangered;
+  
 }
 
 /* Hamburger Lines - Top & Bottom */
@@ -326,13 +282,13 @@ align-items: center;
 
 .container-fluid {
     /*Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/hourglass.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: white;
-    display: grid;
+    
+    
     
        
    
@@ -363,15 +319,40 @@ color: white;
 
 .languageicons i {
   margin-left: 40px;
+ 
   
+}
+
+.languageicons {
+  z-index: 888;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease;
+  top: 8px;
+  right: 1px;
+  color: #fff; 
+ 
   
 }
 
 
-
+.container {
+  margin-bottom: 100px;
+}
 
 
 /*services*/
+#services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
 .section-title {
 	position: relative
 }
@@ -379,9 +360,11 @@ color: white;
 	font-size: 16px;
 	margin-bottom: 5px;
 	font-weight: 400;
+  
 }
 .intro .text-center {
   color: #ccc;
+  
 }
 .section-title h4 {
 	font-size: 40px;
@@ -432,7 +415,8 @@ color: white;
 	-webkit-transition: .3s;
 	transition: .3s;
 	padding: 30px 20px;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16)
+	background:linear-gradient(rgba(202, 202, 202, 0.5),rgba(94, 94, 94, 0.5))
+ 
 }
 .single-service:before {
 	position: absolute;
@@ -488,10 +472,16 @@ color: white;
 	font-weight: 400;
 	margin-bottom: 15px;
 	text-transform: capitalize;
+  color: #eef4f7;
 }
 .single-service p {
 	font-size: 15px;
 	line-height: 1.8;
+  color: #eef4f7;
+}
+
+.text-center{
+  color: #dbdada;
 }
 
 
@@ -509,7 +499,9 @@ color: white;
   padding:40px 0;
   background-color:#dbdada;
   color:#4b4c4d;
-  margin-top: 100px;
+  margin-top: 200px;
+  padding:1px
+  
   
   
 }
@@ -540,6 +532,8 @@ color: white;
 .footer-basic .social {
   text-align:center;
   padding-bottom:25px;
+  margin-top:50px;
+  
 }
 
 .footer-basic .social > a {
@@ -548,12 +542,11 @@ color: white;
   height:40px;
   line-height:40px;
   display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
+  text-align:center;  
   margin:0 8px;
   color:inherit;
   opacity:0.75;
+  margin-left:25px;
 }
 
 .footer-basic .social > a:hover {
@@ -567,6 +560,7 @@ color: white;
   color:#aaa;
   margin-bottom:0;
 }
+
 
 
 
@@ -649,7 +643,6 @@ color: white;
 
 
 
-/*lightbox*/
 
 
   
