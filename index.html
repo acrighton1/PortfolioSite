@@ -34,10 +34,9 @@
               <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#services">Services</a></li>                
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>                
                 <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.php">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -77,18 +76,18 @@
 
   
 
-
+    <section>
     <div class="welcome">
-      <section class="mainparagraph">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque molestias asperiores eveniet natus nihil ducimus assumenda velit in modi, error pariatur? Nostrum autem earum neque corrupti dicta quasi. Maxime, soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque ratione atque beatae minima ad laboriosam optio. Odit distinctio labore eum ad quibusdam, fugit eos doloremque, perspiciatis culpa quasi ea. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa repellendus explicabo beatae repudiandae natus vitae reprehenderit veniam consequatur. Nihil, perferendis accusantium rem nulla architecto similique temporibus asperiores laboriosam fugiat aliquam.</p></section>
-        <div class="welcome-inner">
-           
+      <div class="welcome-container">       
+        <p>If you would like to contact me, please</p> 
+        <       
+      </div>  
+      </div>   
+    </section>  
   
            
 
-     
-    </div>
-</div>
+
 
 
 
@@ -201,16 +200,57 @@
        </div>
     </section>
 
-
-
-
-
-   
-
+    <section class="form-container">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="well well-sm">
+                <form class="form-horizontal" action="" method="post" action="contact-form-process.php">
+                <fieldset>
+                  <legend class="text-center">Contact us</legend>
+          
+                  <!-- Name input-->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="Name">Name</label>
+                    <div class="col-md-9">
+                      <input id="Name" name="Name" type="text" placeholder="Your name" class="form-control" required>
+                    </div>
+                  </div>
+          
+                  <!-- Email input-->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                    <div class="col-md-9">
+                      <input id="Email" name="Email" type="email" placeholder="Your email" class="form-control" required>
+                    </div>
+                  </div>
+          
+                  <!-- Message body -->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="message">Your message</label>
+                    <div class="col-md-9">
+                      <textarea class="form-control" id="Message" name="Message" placeholder="Please enter your message here..." rows="5" required></textarea>
+                    </div>
+                  </div>
+          
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-12 text-right">
+                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+       </section>
 
 
     
-<section>
+
         <div class="footer-basic">
       <footer>
           <div class="social" id="footer">          
@@ -218,21 +258,14 @@
           
             <a href="#"><i class="fab fa-github fa-3x"></i></a>
             
-            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-           
+            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>      
             
             
-          <ul class="list-inline">
-              <li class="list-inline-item"><a href="#">Home</a></li>
-              <li class="list-inline-item"><a href="#">Services</a></li>
-              <li class="list-inline-item"><a href="#">About</a></li>
-              <li class="list-inline-item"><a href="#">Terms</a></li>
-              <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-          </ul>
+         
 
           <p class="copyright">Aaron D. Crighton © 2021</p>
       </footer>
-    </section>
+  
   
 
 <!-- Bootstrap JS -->
