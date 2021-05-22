@@ -67,8 +67,7 @@ html, body {
 
 .hero {
     /* Sizing */
-    max-width: 100%;
-    max-height: 100vh;
+    max-width: 100%;    
     /* Flexbox stuff */
 display: flex;
 justify-content: center;
