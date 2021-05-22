@@ -410,11 +410,7 @@ color: white;
     margin-bottom:100px;
 }
 .services {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+background-color: lightgray;
 }
 .single-service {
 	position: relative;
@@ -499,7 +495,7 @@ color: white;
 /*footer*/
 
 .footer-basic {  
-  background-color:rgba(0.0,0.0,0.0,0.5);
+  background-color:rgba(0.0,0.0,0.0,0.0);
   color:#ffffff;
   margin-top: 10px;
   padding:1px;
