@@ -13,7 +13,7 @@ html, body {
     overflow-x: hidden;
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
     position:fixed;
@@ -82,7 +82,7 @@ align-items: center;
 
    /*Background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-  background-size: cover;
+  background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -107,7 +107,7 @@ align-items: center;
   flex-wrap: wrap;
   opacity: 1.6;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-  background-size: cover;
+  background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -271,7 +271,7 @@ align-items: center;
 .container-fluid {
     /*Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -326,7 +326,7 @@ color: white;
 /*services*/
 #services {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-    background-size: cover;
+  background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -335,7 +335,7 @@ color: white;
 }
 #portfolio {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-  background-size: cover;
+  background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -637,7 +637,7 @@ section{
 }
 .details-card {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-  background-size: cover;
+  background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
