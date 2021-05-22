@@ -5,10 +5,10 @@
 
 html, body {
     margin: 0;
-    padding: 0;  
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    overflow-x: hidden;  
+    overflow-x: hidden;
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
@@ -67,22 +67,23 @@ html, body {
 
 .hero {
     /* Sizing */
-    max-width: 100%;
-    min-height: 100vh;      
+    width: 100vw;
+    height: 100vh;
     /* Flexbox stuff */
 display: flex;
 justify-content: center;
 align-items: center;
  /* Text styles */
  text-align: center;
+
+ 
+
    /*Background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  
-
 
    
 }
@@ -100,7 +101,7 @@ align-items: center;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  opacity: 1.6;   
+  opacity: 1.6;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
   background-position: center center;
@@ -264,8 +265,7 @@ align-items: center;
 
 
 .container-fluid {
-    /*Background styles */  
-    
+    /*Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
     background-position: center center;
@@ -321,7 +321,6 @@ color: white;
 
 /*services*/
 #services {
- 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
     background-position: center center;
@@ -331,7 +330,6 @@ color: white;
     
 }
 #portfolio {
-  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
   background-position: center center;
@@ -634,7 +632,6 @@ section{
     padding: 100px 0;
 }
 .details-card {
-  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
   background-position: center center;
