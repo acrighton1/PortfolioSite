@@ -9,6 +9,8 @@ html, body {
     box-sizing: border-box;
     font-family: sans-serif;
     overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100vh;
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
@@ -67,17 +69,14 @@ html, body {
 
 .hero {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
     /* Flexbox stuff */
 display: flex;
 justify-content: center;
 align-items: center;
  /* Text styles */
  text-align: center;
-
- 
-
    /*Background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
@@ -94,7 +93,9 @@ align-items: center;
   background-color: white;
   padding: 60px 45px;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100vh;  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
     background-position: center center;
@@ -124,6 +125,8 @@ align-items: center;
   align-items: center;
   flex-wrap: wrap;
   opacity: 1.6;
+  max-width: 100%;
+  max-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
   background-position: center center;
@@ -288,6 +291,8 @@ align-items: center;
 
 .container-fluid {
     /*Background styles */
+    max-width: 100%;
+    max-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
     background-position: center center;
@@ -343,6 +348,8 @@ color: white;
 
 /*services*/
 #services {
+  max-width: 100%;
+  max-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
     background-size: cover;
     background-position: center center;
@@ -352,6 +359,8 @@ color: white;
     
 }
 #portfolio {
+  max-width: 100%;
+  max-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
   background-position: center center;
@@ -654,6 +663,8 @@ section{
     padding: 100px 0;
 }
 .details-card {
+  max-width: 100%;
+  max-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
   background-size: cover;
   background-position: center center;
