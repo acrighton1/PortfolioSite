@@ -27,7 +27,14 @@ html, body {
 }
 @media screen and (max-width: 480px) {
   img {
-       width: 240px;
+       width: 280px;
+       
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .languageicons{
+       width: 280px;
        
   }
 }
