@@ -4,23 +4,13 @@
 
 
 html, body {
-    margin: 0;
-    padding: 0;    
-    box-sizing: border-box;
-    position: relative;
-    max-width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-family: sans-serif;
-    overflow-x: hidden;
-    background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;  
+  font-family: "Lora", sans-serif;
 
     
 }
@@ -72,27 +62,21 @@ html, body {
 
 
 .hero {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    /* Flexbox stuff */
-display: flex;
-justify-content: center;
-align-items: center;
- /* Text styles */
- text-align: center;
-
- 
-
-   /*Background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+  position: relative;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  background:url(images/palmtrees.jpg)no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  
-
-
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
+  overflow-x: hidden;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+ /* Text styles */
+  text-align: center;
    
 }
 
@@ -130,11 +114,7 @@ align-items: center;
   align-items: center;
   flex-wrap: wrap;
   opacity: 1.6;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
+
   
 }
 
@@ -293,12 +273,21 @@ align-items: center;
 
 
 .container-fluid {
-    /*Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  position: relative;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  background:url(images/palmtrees.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
+  overflow-x: hidden;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+ /* Text styles */
+  text-align: center;
     
     
     
@@ -349,21 +338,21 @@ color: white;
 
 /*services*/
 #services {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    
-}
-#portfolio {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+  background:url(images/palmtrees.jpg)no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
+  overflow-x: hidden;
   background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+ /* Text styles */
+  text-align: center;
+    
+    
 }
+ 
+ 
 .section-title {
 	position: relative
 }
@@ -502,14 +491,14 @@ background-color: lightgray;
 
 .footer-basic {  
   background-color:rgba(0.0,0.0,0.0,0.0);
-  color:#ffffff;
-  margin-top: 10px;
+  color:#ffffff;  
   padding:1px;
   margin: 1px;
+  margin-bottom: -300px;
   
-  
-  
+   
 }
+
 
 .footer-basic ul {
   padding:0;
@@ -659,11 +648,16 @@ section{
     padding: 100px 0;
 }
 .details-card {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
+ background:url(images/palmtrees.jpg)no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
+  overflow-x: hidden;
   background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+ /* Text styles */
+  text-align: center;
 }
 
 .card-content {
