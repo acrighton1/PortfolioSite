@@ -11,26 +11,17 @@ html, body {
   flex-direction: column;
   box-sizing: border-box;  
   font-family: "Lora", sans-serif;
+  background: url(images/palmtrees.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 
     
 }
 
-@media screen and (max-width: 480px) {
-  background-image {
-       width: 280px;
-       
-  }
-}
 
-
-
-
-@media screen and (max-width: 480px) {
-  img {
-       width: 280px;
-       
-  }
-}
 
 .welcome-container h1 {
   color: #FFF;
@@ -66,13 +57,7 @@ html, body {
   max-width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;  
-  background:url(images/palmtrees.jpg)no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
-  overflow-x: hidden;
-  background-attachment: fixed;
+  flex-direction: column;   
   justify-content: center;
   align-items: center;
  /* Text styles */
@@ -85,11 +70,7 @@ html, body {
   padding: 60px 45px;
   display: flex;
   justify-content: center;  
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/palmtrees.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
   
 				
 }
@@ -265,53 +246,6 @@ html, body {
   transition: color 0.4s ease;
 }
 
-
-
-
-
-
-
-
-.container-fluid {
-  position: relative;
-  max-width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;  
-  background:url(images/palmtrees.jpg)no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
-  overflow-x: hidden;
-  background-attachment: fixed;
-  justify-content: center;
-  align-items: center;
- /* Text styles */
-  text-align: center;
-    
-    
-    
-       
-   
-}
-
-
-
-
-
-.section {
-  min-height: 100vh;
-  display: block;
-}
-
-
-
-h2 {
-color: white;
-}
-
-
-
 .languageicons {
   z-index: 888;  
   right: 30px;
@@ -335,23 +269,6 @@ color: white;
   margin-bottom: 100px;
 }
 
-
-/*services*/
-#services {
-  background:url(images/palmtrees.jpg)no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
-  overflow-x: hidden;
-  background-attachment: fixed;
-  justify-content: center;
-  align-items: center;
- /* Text styles */
-  text-align: center;
-    
-    
-}
- 
  
 .section-title {
 	position: relative
@@ -648,16 +565,7 @@ section{
     padding: 100px 0;
 }
 .details-card {
- background:url(images/palmtrees.jpg)no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/palmtrees.jpg");
-  overflow-x: hidden;
-  background-attachment: fixed;
-  justify-content: center;
-  align-items: center;
- /* Text styles */
-  text-align: center;
+
 }
 
 .card-content {
