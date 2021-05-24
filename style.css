@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;  
@@ -17,7 +17,7 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
-  
+  overflow-y: auto;
 
 }
 
@@ -92,46 +92,7 @@ li.nav-item {
 }
 
 
-#button {
-  display: inline-block;
-  background-color: #FF9800;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-#button:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#button:active {
-  background-color: #555;
-}
-#button.show {
-  opacity: 1;
-  visibility: visible;
-}
 
-#button {
-  margin: 30px;
-}
   
 
 
@@ -148,6 +109,7 @@ li.nav-item {
   text-align: center;
    
 }
+
 
 
 
@@ -318,7 +280,11 @@ background-color: lightgray;
 .footer{  
   background-color:rgba(0.0,0.0,0.0,0.0);
   color:#ffffff;  
-   
+  padding:1px;
+  margin: 1px;
+  
+  
+  
    
 }
 
