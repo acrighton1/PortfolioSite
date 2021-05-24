@@ -3,7 +3,7 @@
 
 
 
-html, body {
+ body {
   margin: 0;
   padding: 0;
   max-width: 100%;
@@ -425,37 +425,27 @@ background-color: lightgray;
 
 /*footer*/
 
-.footer-basic {  
+
+
+
+.footer {
   background-color:rgba(0.0,0.0,0.0,0.0);
   color:#ffffff;  
   padding:1px;
   margin: 1px;
-  margin-bottom: -300px;
-  
-   
+  padding-top: 200px;
+  margin-bottom: -100px;  
+ 
 }
 
-
-.footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
-}
-
-.footer-basic li {
-  padding:0 10px;
-}
-
-.footer-basic ul a {
+.footer-basic  a {
   color:inherit;
   text-decoration:none;
   opacity:0.8;
+  
 }
 
-.footer-basic ul a:hover {
+.footer-basic a:hover {
   opacity:1;
 }
 
@@ -492,11 +482,7 @@ background-color: lightgray;
   color:#aaa;
   margin-bottom:0;
 }
-
-.list-inline {
-  margin-top: 15px;
-}
-
+ 
 p.copyright {
   text-align: center;
   margin-left:40px;
