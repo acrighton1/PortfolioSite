@@ -64,19 +64,6 @@ li.nav-item {
   list-style: none;
 }
 
-.nav-link {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-weight: 800;
-  letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
-  transition: 0.3s;
-  transition-property: background;
-  font-size:24px;
-
-}
-  
   
   
   
