@@ -11,17 +11,13 @@ html, body {
   flex-direction: column;
   box-sizing: border-box;  
   font-family: "Lora", sans-serif;
-  background:url(images/palmtrees.jpg) no-repeat center center fixed; 
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/palmtrees.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),
-  url('images/palmtrees.jpg');
-}
+  
 
   
   
@@ -288,7 +284,6 @@ html, body {
 }
 
 
-
 .container {
   margin-bottom: 100px;
 }
@@ -435,17 +430,11 @@ background-color: lightgray;
   color:#ffffff;  
   padding:1px;
   margin: 1px;
-  padding-top: 200px;
-  margin-bottom: -100px; 
+  
+  
   
    
 }
-
-
-
-
-
-
 
 .footer-basic ul a:hover {
   opacity:1;
@@ -572,12 +561,7 @@ h2 {
 /*concept works*/
 /* card details start  */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
-section{
-    padding: 100px 0;
-}
-.details-card {
 
-}
 
 .card-content {
 	background: #ffffff;
