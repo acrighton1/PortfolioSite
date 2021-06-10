@@ -534,4 +534,22 @@ a.btn-card {
 
 .address i:hover {
   color:blue;
-}z
+}
+
+.introduction-text p{  
+  line-height: 4rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  
+}
+
+.introduction-text {
+  margin-bottom: 100px;
+}
+
+.aboutmesection p{
+  font-size: 24px;
+  line-height: 50px;
+}
+
+
