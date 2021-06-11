@@ -203,9 +203,10 @@ background-color: lightgray;
 	-webkit-transition: .3s;
 	transition: .3s;
 	padding: 30px 20px 30px 20px;
-	background:linear-gradient(rgba(202, 202, 202, 0.5),rgba(94, 94, 94, 0.5))
- 
+	background:linear-gradient(rgba(202, 202, 202, 0.5),rgba(94, 94, 94, 0.5));
+   
 }
+
 .single-service:before {
 	position: absolute;
 	width: 0;
@@ -556,4 +557,19 @@ a.btn-card {
 
 
 
-
+#myBtn {
+  font-size: 18px !important;
+  position: fixed;
+  z-index: 9999;
+  color:#ddd;
+  cursor: pointer;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+  }
+  
+  #myBtn {
+  opacity: 1;
+  }
