@@ -113,12 +113,6 @@ li.nav-item {
 
 
 
-
-
-
-
-
-
 .languageicons {
   z-index: 888;  
   right: 30px;
@@ -203,7 +197,7 @@ background-color: lightgray;
 	-webkit-transition: .3s;
 	transition: .3s;
 	padding: 30px 20px 30px 20px;
-	background:linear-gradient(rgba(202, 202, 202, 0.5),rgba(94, 94, 94, 0.5));
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(34, 34, 34, 0.5));
    
 }
 
@@ -211,7 +205,7 @@ background-color: lightgray;
 	position: absolute;
 	width: 0;
 	height: 0;
-	background-color: #1600db;
+	background-color: #a14900;
 	left: 0;
 	top: 0;
 	content: "";
@@ -222,7 +216,7 @@ background-color: lightgray;
 	position: absolute;
 	width: 0;
 	height: 0;
-	background-color:  #1600db;
+	background-color:  #a14900;
 	right: 0;
 	bottom: 0;
 	content: "";
@@ -251,6 +245,10 @@ background-color: lightgray;
 	transition: .3s
 }
 
+.single-service i{
+  color: #ddd;
+}
+
 .single-service h4 {
 	font-size: 20px;
 	font-weight: 400;
@@ -262,6 +260,7 @@ background-color: lightgray;
 	font-size: 16px;
 	line-height: 2.0;
   color: #eef4f7;
+  font-weight: 500;
 }
 
 .text-center{
@@ -323,14 +322,19 @@ border: 0;
 
 .features-boxed {
   color:#313437;
-  background-color:#eef4f7;
+  
   
 }
 
+.box i{
+  color:white;
+}
+
+
 
 .features-boxed p {
-  color:#000000;
-  font-weight: 450;
+  color:#ffffff;
+  font-weight: 500;
 }
 
 h2 {
@@ -372,7 +376,7 @@ h2 {
 .features-boxed .item .box {
   text-align:center;
   padding:30px;
-  background-color:#fff;
+  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(17, 17, 17, 0.5));
   margin-bottom:30px;
   opacity: 0.6;
 }
@@ -384,7 +388,7 @@ h2 {
   font-size:18px;
   margin-bottom:8px;
   margin-top:0;
-  color:inherit;
+  color:white;
 }
 
 .features-boxed .item .description {
@@ -477,10 +481,12 @@ h2 {
 }
 .card-desc {
 	padding: 1.25rem;
+  background-color: #000000;
+  
 }
 
 .card-desc h3 {
-	color: #000000;
+	color: #ffffff;
     font-weight: 600;
     font-size: 1.5em;
     line-height: 1.3em;
@@ -500,9 +506,9 @@ h2 {
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 }
-.btn-card{
-	background-color: #1ABC9C;
-	color: #fff;
+.btn-card {
+	background-color: #ffffff;
+	color: #000000;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     padding: .84rem 2.14rem;
     font-size: .81rem;
@@ -519,14 +525,16 @@ h2 {
     text-transform: uppercase;
     white-space: normal;
     word-wrap: break-word;
-    color: #fff;
+
 }
+
+
 .btn-card:hover {
     background: orange;
 }
 a.btn-card {
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 /* End card section */
 .address i {
