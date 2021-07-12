@@ -545,17 +545,7 @@ a.btn-card {
   color:blue;
 }
 
-.introduction-text p{  
-  line-height: 4rem;
-  font-family: 'Playfair Display', serif;
-  font-weight: 300;
-  text-shadow: 2px 2px 5px black;
-  
-}
 
-.introduction-text {
-  margin-bottom: 100px;
-}
 
 .aboutmesection p{
   font-size: 24px;
@@ -565,19 +555,8 @@ a.btn-card {
 
 
 
-#myBtn {
-  font-size: 18px !important;
-  position: fixed;
-  z-index: 9999;
-  color:#ddd;
-  cursor: pointer;
-  bottom: 2em;
-  right: 2em;
-  text-decoration: none;
-  transition: opacity 0.2s ease-out;
-  opacity: 0;
-  }
-  
-  #myBtn {
-  opacity: 1;
-  }
+.under-logo{
+  font-size: 32px;
+  color: white;
+  font-style: italic;
+}
