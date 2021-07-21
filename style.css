@@ -29,10 +29,6 @@ html, body {
   }
 }
 
-@media (min-width:768px) {
-  .body{
-    transform: scale(50%);
-}
 
 .header-dark {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/mountain.jpg);
