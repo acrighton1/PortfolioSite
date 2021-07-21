@@ -5,9 +5,23 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
   scroll-behavior: smooth;
- 
+}
 
+@media screen and (max-width : 760px){
+  .mainlogo {
+     width: 95%;
+ }
+ }
+
+ 
+ @media screen and (max-width:760px) {
+  .header-dark {
+    width: 100%;
+    background-image: url(images/mountain.jpg);
+  }
 }
 
 .header-dark {
@@ -710,6 +724,7 @@ hr.rounded {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   font-size: 24px;
+  z-index:100;
   
 }
 
