@@ -35,9 +35,7 @@ html, body {
 
 .header-dark {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/mountain.jpg);
-  z-index: 0;
-  object-fit:cover;
-  object-position: bottom;
+  z-index: 0;  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;  
