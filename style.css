@@ -19,14 +19,6 @@ html, body {
  }
 
 
- 
- @media screen and (max-width:760px) {
-  .header-dark {
-    background-repeat: no-repeat;  
-    background-size: 50%;
-    background-image: url(images/mountain.jpg);
-  }
-}
 
 
 .header-dark {
@@ -36,8 +28,9 @@ html, body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;  
-  max-width: 100%;
-  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  
  
   
   
