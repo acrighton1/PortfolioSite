@@ -37,6 +37,9 @@ html, body {
   }
 }
 
+
+
+
 .welcome-container h1 {
   color: #FFF;
 } 
@@ -556,6 +559,7 @@ hr.rounded {
 .under-logo {
   display: inline-block;
   margin: 0 0.5rem;
+  font-size:24px;
 
   animation: backInDown; 
     animation-duration: 2s; 
