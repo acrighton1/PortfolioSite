@@ -34,13 +34,17 @@ html, body {
 
 
 .header-dark {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/mountain.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/mountain.jpg) no-repeat center center fixed;
   z-index: 0;  
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;    
   width: 100%;
   height: auto; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
  
 }
