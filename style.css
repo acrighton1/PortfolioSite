@@ -5,8 +5,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  width:100%;
-  height:100%;
+  max-width: 100%;
+  min-height:100vh;
   overflow-x: hidden;
   overflow-y: auto;
   scroll-behavior: smooth;
@@ -41,12 +41,7 @@ html, body {
   background-repeat: no-repeat;  
   max-width: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;   
-  justify-content: center;
-  align-items: center;
- /* Text styles */
-  text-align: center;
+ 
   
   
  
@@ -196,12 +191,10 @@ html, body {
   font-family:'Bitter', serif;
   font-size:40px;
   margin-top:20px;
-  margin-bottom:80px;
 }
 
 @media (min-width:768px) {
   .header-dark .hero h1 {
-    margin-bottom:50px;
     line-height:1.5;
   }
 }
