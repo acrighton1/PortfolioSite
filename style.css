@@ -19,6 +19,13 @@ html, body {
  }
 
 
+ 
+ @media screen and (max-width:760px) {
+  .header-dark {
+    background-repeat: no-repeat;     
+    background-image: url(images/mountainmobile.jpg);
+  }
+}
 
 
 .header-dark {
