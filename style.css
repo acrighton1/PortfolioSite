@@ -40,8 +40,7 @@ html, body {
 @media screen and (orientation: landscape) {
   .bgimage {
     height:auto;
-    
-    
+    background-attachment: scroll;   
   
   }
 }
