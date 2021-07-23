@@ -162,7 +162,9 @@ li.nav-item {
 background-color: rgb(233, 233, 233);
 }
 .single-service {
-	position: relative;
+  display:flex;
+  flex-wrap: wrap;	
+  flex-direction: row;
 	text-align: center;
 	margin-bottom: 50px;
 	-webkit-transition: .3s;
@@ -416,7 +418,7 @@ margin-top: auto;
 
 .portfoliosection{
   margin-top: auto;
-  margin-bottom: 950px;
+  
 }
 
 .address i {
@@ -498,4 +500,10 @@ hr.rounded {
 
   animation: backInDown; 
     animation-duration: 2s; 
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
