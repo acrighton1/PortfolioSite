@@ -1373,12 +1373,13 @@ body, html {
             }
     
             .contact-text {
-                width: 900px;
+                width: 300px;
                 height: 226px;
-                margin-left: -185px;
+                margin-left: 115px;
                 margin-right: 375px;
                 margin-top: 50px;
                 font-weight: 500;
+                font-size:16px;
                 text-align: center;
                 font-family: Poppins, sans-serif;
                 letter-spacing: 1px;
