@@ -604,9 +604,8 @@ margin-left:10px;
     #services{
         margin-top:50px;
     }
- 
 
- }
+}
 
 
  
@@ -811,7 +810,7 @@ margin-left:10px;
           
             .footer {
                 width: 100%;
-                height:950px;
+                height:100vh;
                 margin-bottom:0px;
                 background: #050F17 0% 0% no-repeat padding-box;
                 opacity: 1;
@@ -873,6 +872,10 @@ body, html {
         opacity: 1;
     }
 
+
+    .header-social{
+        margin-top:-25px;
+    }
     .service-circle {
     display:none;
     }
@@ -1243,7 +1246,7 @@ body, html {
                     width: 256px;
                     height: 36px;
                     margin-left:85px;
-                    margin-bottom:200px;
+                    margin-bottom:150px;
                     text-align: center;
                     font: normal normal medium 10px/18px Poppins;
                     letter-spacing: 0px;
@@ -1254,8 +1257,7 @@ body, html {
                 .footer {
                     width: 100%;
                     height:236px;
-                    margin-top:-50px;
-                    margin-bottom:600px;
+                    margin-bottom:50px;
                     background: #050F17 0% 0% no-repeat padding-box;
                     opacity: 1;
                 }
@@ -1589,13 +1591,18 @@ body, html {
             width: 240px;
             height: 77px;
             margin-left: 35px;
-            margin-top: 0px;
+            margin-top: 150px;
+            margin-bottom: -10px;
             text-align: center;
             font: normal normal bold 24px/195px Poppins;
             font-family: 'Poppins', sans-serif;
             letter-spacing: 0px;
             color: #050F17;
             opacity: 1;
+        }
+
+        #features{
+            margin-top:50px;
         }
     
         .service-circle {
@@ -1754,7 +1761,7 @@ body, html {
             }
 
             
-}
+
             .footer {
                 width: 100%;
                 height: 236px;
@@ -1773,4 +1780,4 @@ body, html {
             }
 
         
-}
+        }
