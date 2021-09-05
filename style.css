@@ -550,6 +550,19 @@ margin-left:10px;
 
 
 @media  (max-device-width: 823px) and (orientation: landscape) {
+    
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+    
+  }
+  
+  body, html {
+      height:100%;
+      width:100%;
+      scroll-behavior: smooth;
+  }
    .intro-text{ 
    color:white;
    margin-left:10px;
@@ -2278,13 +2291,13 @@ body, html {
             opacity: 1;
         }
 
-        .line-two{            
-                border: 5px solid white;
-                margin-left: 0px;
-                margin-bottom:25px;
-                margin-top:-250px;
-
-        }
+        
+.line-two {
+    border: 5px solid white;
+    margin-left: -45px;
+    margin-bottom: 25px;
+    margin-top: -250px;
+}
 
         .contact-text {
             width: 900px;
@@ -2771,13 +2784,15 @@ body, html {
                 opacity: 1;
             }
 
-            .footer {
-                width: 100%;
-                height: 236px;
-                margin-bottom:-50px;
-                background: #050F17 0% 0% no-repeat padding-box;
-                opacity: 1;
-            }
+            
+.footer {
+    width: 100%;
+    height: 236px;
+    margin-bottom: -50px;
+    margin-top: 125px;
+    background: #050F17 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
 
 }
 
