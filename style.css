@@ -1072,10 +1072,11 @@ margin-left:10px;
               opacity: 1;  
           }
           
-          .line-two{
-              border: 5px solid white;
-              margin-left:800px;
           
+          .line-two {
+              border: 5px solid white;
+              margin-left: 800px;
+              margin-top: 100px;
           }
           
           .footer{
@@ -3444,11 +3445,8 @@ margin-left:10px;
                             }
                         
                 
-                        .line-two{            
-                                border: 5px solid white;
-                                margin-left: -20px;
-                            
-                        }
+                           
+                           
                 
                         .contact-text {
                             width: 256px;
