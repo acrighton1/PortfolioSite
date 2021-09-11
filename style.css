@@ -1705,6 +1705,13 @@ margin-left:10px;
 
 
     @media screen and (max-width:1439px) and (min-width:1023px) {
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box; 
+            
+          }
+          
         body, html {
             height:100%;
             width:100%;
@@ -1916,7 +1923,13 @@ margin-left:10px;
     
     
     @media screen and (max-width:1023px) and (min-width:767px){
-        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box; 
+            
+          }
+          
         body, html {
             height:100%;
             width:100%;
@@ -2158,7 +2171,13 @@ margin-left:10px;
         
         }
         @media screen and (min-width:768px) and (max-width:1024) {
-        
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box; 
+                
+              }
+              
             body, html {
                 height:100%;
                 width:100%;
@@ -2411,7 +2430,13 @@ margin-left:10px;
             }   
     
     @media screen and (max-width:767px){
-        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box; 
+            
+          }
+          
     body, html {
         height:100%;
         width:100%;
@@ -2664,12 +2689,47 @@ margin-left:10px;
         
     @media screen and (max-width:600px) and (min-width:500px){
 
+        .service-header {
+            margin-left:100px;
+           
+
+        }
+        
+        .features-header{
+            margin-left:100px;   
+        }
+
+        .examples-header{
+            margin-left:100px;
+        }
+
+        .about-me-text{
+            margin-left:50px;
+        }
+
+       .contact-text{
+           margin-left:200px;
+       }
+
+       .me-image{
+           margin-left:242px;
+           margin-top:-115px
+           
+       }
+
+       
     }
     
     
     
     @media screen and (max-width:425px) {
-        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box; 
+            
+          }
+          
         body, html {
             height:100%;
             width:100%;
@@ -2920,7 +2980,13 @@ margin-left:10px;
     
     
     @media screen and (max-width:375px) {
-        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box; 
+            
+          }
+          
         body, html {
             height:100%;
             width:100%;
@@ -3202,6 +3268,15 @@ margin-left:10px;
     
     
             @media screen and (max-width:320px){
+                *{
+                    margin:0;
+                    padding:0;
+                    box-sizing:border-box; 
+                    
+                  }
+                  
+               
+               
                 body, html {
                     height:100%;
                     width:100%;
