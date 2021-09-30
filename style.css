@@ -3498,9 +3498,33 @@ margin-left:10px;
            
 /*Landscape Media Queries*/
 
-@media (max-width:823px) and (min-width:768px) and (orientation: landscape){
+@media(orientation:landscape){
+
+@media (max-width:824px) and (min-width:769px) and (orientation: landscape){
     .intro-text{
-        margin-top:-150px;
+        margin-top:-10px;
+    }
+
+    .service-header{
+        margin-top:25px;
+        margin-bottom:100px;
+        margin-left:275px
+    }
+    
+    .features-header{
+        margin-left:275px;
+    }
+
+    .examples-header{
+        margin-left:275px;
+    }
+
+    .about-me-text{
+        margin-left:200px;
+    }
+
+    .contact-text{
+        margin-left:120px;
     }
 
 
@@ -3509,7 +3533,8 @@ margin-left:10px;
 }
 
 
-@media (max-width:768px) and (min-width:660px) and (orientation: landscape){
+
+@media (max-width:768px) and (min-width:668px) and (orientation: landscape){
 
 .intro-text{
     font-size: 18px;
@@ -3542,7 +3567,8 @@ margin-left:10px;
 }
 
 .me-image{
-    margin-left:355px;
+    margin-left:350px;
+    margin-top:-170px;
 }
 
 .about-me-text{
@@ -3550,12 +3576,57 @@ margin-left:10px;
 }
 
 .contact-text{
-    margin-left:345px;
+    margin-left:340px;
 }
 }
 
+@media (max-width:668px) and (min-width:667px) and (orientation: landscape){
+    .intro-text{
+        font-size: 18px;
+        margin-top:25px;
+        margin-bottom:50px;
+        
+    }
+    
+    
+    .under-intro{
+        margin-top:-25px;
+        
+    }
+    
+    .service-header{
+        margin-top:-25px;
+        margin-left:200px;
+        
+    }
+    
+    .features-header{
+       margin-bottom:75px;
+       margin-top:100px;
+       margin-left:200px;
+    }
+    
+    .examples-header{
+        margin-top:150px;
+        margin-left:200px;
+    }
+    
+    .me-image{
+        margin-left:320px;
+        margin-top:-150px;
+    }
+    
+    .about-me-text{
+        margin-left:145px;
+    }
+    
+    .contact-text{
+        margin-left:300px;
+    }
+}
 
-@media (max-width:660px) and (min-width:568px) and (orientation: landscape){
+
+@media (max-width:667px) and (min-width:568px) and (orientation: landscape){
 
     *{
         margin:0;
@@ -3833,7 +3904,7 @@ margin-left:10px;
     }
             
 
-    @media (max-width:568px) and (min-width:480px) and (orientation: landscape){
+    @media (max-width:567px) and (min-width:480px) and (orientation: landscape){
 
        .intro-text{
            margin-top:25px;
@@ -3883,3 +3954,4 @@ margin-left:10px;
 
 
     }
+}
