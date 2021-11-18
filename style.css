@@ -229,17 +229,8 @@
     
 }
 
-#examples > div:nth-child(8){
-    max-width:1150px !important;
-}
 
-#examples > div:nth-child(6){
-    max-width:1150px !important;
-}
 
-#examples > div:nth-child(4){
-    max-width:1150px !important;
-}
 
 .card-title-1{
     font-size: 24px;
