@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">    
 </head>
 
@@ -21,7 +23,7 @@
       <div class="nav">               
         <div class="nav-header">
           <div class="nav-title">
-            <img class="header-logo img-fluid" src="images/newlogo2.png" alt="Aaron D Crighton Logo">
+            <img class="header-logo img-fluid  animate__animated animate__fadeInDown" src="images/newlogo2.png" alt="Aaron D Crighton Logo">
             <!-- The overlay -->
               <div id="myNav" class="overlay">
 
@@ -46,10 +48,10 @@
 
                                  <div class="intro-text mt-5 position-absolute top-50 start-50 translate-middle">
                                   <div class="container">                                  
-                                  <p class="intro-text text-center">WEB DEVELOPMENT<br><span class="and-color">&</span>DESIGN</p>
-                                  <p class="under-intro text-center">AARON D. CRIGHTON</p>                                
+                                  <p class="intro-text text-center animate__animated animate__fadeInLeft">WEB DEVELOPMENT<br><span class="and-color">&</span>DESIGN</p>
+                                  <p class="under-intro text-center  animate__animated animate__fadeInRight">AARON D. CRIGHTON</p>                                
                               </div>
-                              <div class="header-social text-center img-fluid">
+                              <div class="header-social text-center img-fluid animate__animated animate__fadeInUp">
                                 <i class=" fab fa-html5"></i>
                                 <i class="fab fa-css3-alt"></i>
                                 <i class="fab fa-js-square"></i>
@@ -66,9 +68,12 @@
 
                           <section id="services">                                                     
                             <div class="intro-text">
-                              <div class="container">
+                              <div class="container"> 
+                                <div data-aos="fade-down" data-aos-duration="2000">                             
                               <h1 class="service-header mt-5 text-center">Services</h1>
+                            </div>  
                               
+                            <div data-aos="fade-down" data-aos-duration="2000">
                               
                               <div class="cards">
                               <div class="card text-center text-wrap h-auto w-auto">                
@@ -98,6 +103,7 @@
                                 <img class="card-ellipse-grey-2 text-center position-absolute top-100 start-50 translate-middle" src="images/Ellipse12.png" alt="">
                               </div>
                             </div>
+                          </div>  
                           </section>
                       
                   
@@ -106,12 +112,16 @@
 
 
                           <section id="features">
+                            <div data-aos="fade-down" data-aos-duration="2000">                     
                             <img class="seperator-dot text-center mt-5  " src="images/seperator.png" alt="seperator dot">
+                            </div>
                             <div class="intro-text-2">
                               <div class="container">
+                                <div data-aos="fade-down" data-aos-duration="2000">
                               <h1 class="features-header mt-5 text-center">Features</h1>
+                            </div>
                               </div>
-                      
+                              <div data-aos="fade-down" data-aos-duration="2000">
                               <div class="service-cards">
                                 <div class="service-card text-center">                
                                   <div class="container">
@@ -152,6 +162,7 @@
                                     <p class="text-center mt-4">Your site will fit on all screens and devices when  viewed. Your site will always be built with mobile responsiveness in mind.</p>
                                   </div>                
                                 </div>
+                              </div>
                               </div>                                                       
                               </section>
                       
@@ -161,14 +172,18 @@
                           
                               <section id="examples">            
                                 
-                                  
-                                    <img class="seperator-dot-2 text-center" src="images/seperator.png" alt="seperator dot">
+                                <div data-aos="fade-down" data-aos-duration="2000">
+                                    <img class="seperator-dot-2 text-center" src="images/seperator.png" alt="seperator dot"></div>
+                                    <div data-aos="fade-down" data-aos-duration="2000">  
                                   <h1 class="examples-header text-center">Examples</h1>
+                                  </div>
                                   <div class="container-fluid">
                                     <hr class="line-example-1" style="height:3px; width:85%; margin-left:10%; border-width:0; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0)">       
                                   </div>
                       
-                              
+                                  <div data-aos="fade-down"
+                                  data-aos-offset="300"
+                                  data-aos-easing="ease-in-sine">                            
                                   <div class="row g-0 position-relative p-5">
                                     <div class="col-md-6 mb-md-0 p-md-4">
                                       <img src="images/LoneTravelerScreen.JPG" class="w-100 m-auto" alt="...">
@@ -182,11 +197,15 @@
                                       <a href="#" class="btn btn-dark">Live Demo</a>   
                                     </div>
                                   </div>
+                                </div>
                                   
                                   <div class="container-fluid">
                                     <hr class="line-example-2" style="height:3px; width:85%; margin-left:10%; border-width:0; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0)">       
                                   </div>
-                      
+                                
+                                  <div data-aos="fade-down"
+                                  data-aos-offset="300"
+                                  data-aos-easing="ease-in-sine"> 
                                   <div class="row g-0 position-relative p-5">
                                     <div class="col-md-6 mb-md-0 p-md-4">
                                       <img src="images/Areli.png" class="w-100" alt="...">
@@ -198,7 +217,7 @@
                                       <a href="#" class="btn btn-dark">Live Demo</a>   
                                     </div>
                                   </div>
-                      
+                                </div>
                                   <div class="container-fluid">
                                     <hr class="line-example-3" style="height:3px; width:85%; margin-left:10%; border-width:0; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0)">       
                                   </div>                   
@@ -211,25 +230,34 @@
                               <section id="about">
                                 <div class="about-me">
                                   <div class="me-images">
-                                  <img class="about-image-1 img-fluid" src="images/ABOUT.png" alt="About" loading="lazy">
-                                  <img class="me-image img-fluid text-center position-absolute top-50 start-50 translate-middle" src="images/ME.png" loading="lazy" alt="ME">                                                               
+                                    <div data-aos="fade-down" data-aos-duration="2000">  
+                                  <img class="about-image-1 img-fluid" src="images/ABOUT.png" alt="About" loading="lazy">                              
+                                    
+                                  <img class="me-image img-fluid text-center position-absolute top-50 start-50 translate-middle" src="images/ME.png" loading="lazy" alt="ME"> 
+                                    </div>                                                          
                                 </div>
                               </div>
                                   <div class="about-text">
                                     <div class="container">
-                                    <p class="about-me-text d-flex justify-content-center text-center mx-5 text-wrap">I am a web developer who specializes in WordPress theme development . I work primarily with HTML, CSS, JavaScript, and PHP. I also provide services such as XD or PSD to HTML/CSS, refactoring, and site maintenance.<br><br>I am open to working remotely with small businesses and individuals who need personal or small business type websites. I focus on mobile responsiveness and user experience. I have a passion for coding, and love to bring people's dreams and visions into a reality online. I also work with any budget, so don't be afraid to contact me regarding your needs!</p>
+                                      <div data-aos="fade-down" data-aos-duration="2000">  
+                                    <p class="about-me-text d-flex justify-content-center text-center mx-5 text-wrap">I am a web developer who specializes in WordPress theme development . I work primarily with HTML, CSS, JavaScript, and PHP. I also provide services such as XD or PSD to HTML/CSS, refactoring, and site maintenance.<br><br>I am open to working remotely with small businesses and individuals who need personal or small business type websites. I love to bring my clients' dreams and visions into a reality online, and I work with any budget, so don't be afraid to contact me regarding your needs!</p>
+                                    </div>
                                   </div>
                                   </div>
                               </section>
                               
                       
                               
-                              <div class="container-fluid img-fluid">                              
-                                <hr style="height:3px; width:70%; margin-left:15%; border-width:0; color:red; background-color:red">                         
+                              <div class="container-fluid img-fluid">
+                                <div data-aos="fade-down" data-aos-duration="2000">
+                                <hr style="height:3px; width:70%; margin-left:15%; border-width:0; color:red; background-color:red">  
+                              </div>                                                     
                               </div>
                                 <div class="contact-me">
                                   <div class="container">
+                                    <div data-aos="fade-down" data-aos-duration="2000">  
                                   <p class="contact-text about-me-text d-flex justify-content-center text-center mx-5 text-wrap">If you like what you see here, and would like to get in touch,<br> click the envelope below to contact me!</p>
+                                  </div>
                                 </div>
                               </div>
                       
@@ -315,6 +343,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>   
 <script src="https://unpkg.com/mailgo@0.12.1/dist/mailgo.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript" src="app.js"></script>
 
 </body>
