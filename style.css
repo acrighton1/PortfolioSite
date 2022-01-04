@@ -17,7 +17,7 @@
       height: 100%;
       width: 0;
       position: fixed; /* Stay in place */
-      z-index: 2; /* Sit on top */
+      z-index: 99; /* Sit on top */
       left: 0;
       top: 0;
       background-color: rgb(0,0,0); /* Black fallback color */
@@ -106,7 +106,7 @@
 
   
       .bgimg-1 {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/mountains.jpg');             
+          background-image: linear-gradient(rgb(195 195 195 / 74%), rgb(0 0 0)),url(images/unnamed.jpg);           
           height: 100%;
           position: relative;
           background-position: center;
@@ -143,6 +143,20 @@
           opacity: 1;
       }
   
+      .intro-2{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color:black;
+            text-transform: none;
+            font-size: 1.5vw;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 0px;
+            text-align: center;
+            opacity: 1;
+            
+      }
+
+
       .under-intro{
           text-align: center;
           font: normal normal normal calc(1.3vw + 4px) Poppins;
@@ -310,6 +324,12 @@
    
 }
 
+.btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    margin: 10px;
+}
 
 .features-header{
     top: 877px;
@@ -566,3 +586,175 @@ margin-left:10px;
     margin-bottom:25px;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
+
+
+
+
+
+
+.background {
+  padding: 0 25px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.background::after {
+  content: '';
+  background: #000000; 
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+
+
+.panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.pricing-table {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    flex-direction: row;
+  }
+}
+
+.pricing-table * {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+}
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+  color:#FF4942
+}
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+  border-top: 1px solid #e1f1ff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  color: #000000;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #000000;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #000000;
+  color: #fff;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #269aff;
+}
+
+#price-section{
+    margin-top:100px;
+    
+}
+
+
+.seperator-dot-3{
+    color:#FF4942 
+}
