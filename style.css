@@ -106,7 +106,7 @@
 
   
       .bgimg-1 {
-          background-image: linear-gradient(rgb(109 109 109 / 70%), rgb(0 0 0/0.7)),url(images/space.jpg);         
+          background-image: linear-gradient(rgb(109 109 109 / 10%), rgb(0 0 0/0.0)),url(images/space.jpg);         
           height: 100%;
           position: relative;
           background-position: center;
