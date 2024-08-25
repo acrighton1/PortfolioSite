@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A portfolio site containing the work of Aaron D. Crighton">
+  <title>Aaron D. Crighton</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ESGRJ8YR48"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ESGRJ8YR48');
+</script>
+
+
+<div class="bgimg-1" loading="lazy">
+  <div class="container">
+    <header class="top-nav">
+      <div class="nav">
+        <div class="nav-header">
+          <div class="nav-title">
+            <img class="header-logo img-fluid  animate__animated animate__fadeInDown" src="images/newlogo2.png"
+              alt="Aaron D Crighton Logo">
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+              <!-- Button to close the overlay navigation -->
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <!-- Overlay content -->
+              <div class="overlay-content">
+                <a href="#services" onclick="closeNav()">Services</a>
+                <a href="#features" onclick="closeNav()">Features</a>
+                <a href="#examples" onclick="closeNav()">Examples</a>
+                <!-- <a href="#price-section" onclick="closeNav()">Pricing</a> -->
+                <a href="#about" onclick="closeNav()">About</a>
+                <a href="#contact" onclick="closeNav()">Contact</a>
+              </div>
+            </div>
+            <div id="loader">
+              <img src="https://i.gifer.com/XZ5V.gif" alt="loading..." />
+            </div>
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <div class="nav-icon" onclick="openNav()"><i class="fas fa-bars fa-2x"></i></div>
+
+
+
+            <div class="intro-text mt-5 position-absolute top-50 start-50 translate-middle">
+              <div class="container">
+                <p class="intro-text text-center animate__animated animate__fadeInLeft">WEB DEVELOPMENT<br><span
+                    class="and-color">& </span>DESIGN</p>
+                <!-- <p class="under-intro text-center  animate__animated animate__fadeInRight">AARON D. CRIGHTON</p> -->
+              </div>
+              <!--<div class="header-social text-center img-fluid animate__animated animate__fadeInUp">
+                                <i class=" fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-js-square"></i>
+                                <i class="fab fa-php"></i>
+                                <i class="fab fa-wordpress"></i>
+                              </div>-->
+            </div>
+    </header>
+  </div>
+</div>
+
+<section id="services">
+  <div class="intro-text">
+    <div class="container">
+      <div data-aos="fade-down" data-aos-duration="2000">
+        <h1 class="service-header mt-5 text-center">What I Do</h1>
+      </div>
+
+      <div data-aos="fade-down" data-aos-duration="2000">
+
+        <img class="seperator-dot-3 text-center mt-5  " src="images/codetop.png" alt="seperator dot">
+
+        <h5 class="intro-2 text-center fs-5 lh-base fw-normal text-wrap mx-5 px-auto">
+          I'm an accomplished developer well-versed in cutting-edge technology stacks such as Java, PHP, MySQL, HTML/CSS, JavaScript, Laravel, React, MongoDB, and more. My expertise spans both front-end and back-end development, enabling me to craft diverse solutions, from full-stack web applications to elegant static websites. Furthermore, I have a proven track record in developing custom themes and plugins for content management systems like WordPress and Shopify. My focus is on creating visually captivating and highly functional websites that not only represent your brand and narrative effectively but also generate substantial traffic and revenue.
+          <br><br>
+          I take a personal approach to every project, working closely with you to ensure that every detail is attended
+          to and that the end result meets your exact needs and expectations. I believe that a website is more than just
+          an online presence, it is a crucial part of your business and brand.
+          Thank you for considering me as your web developer. Please feel free to browse my portfolio and read more
+          about my services. I look forward to working with you to bring your vision to life!
+        </h5>
+</section>
+
+<section id="services">
+  <div class="intro-text">
+    <div class="container">
+      <div data-aos="fade-down" data-aos-duration="2000">
+        <h1 class="service-header mt-5 text-center">Services</h1>
+      </div>
+
+      <div data-aos="fade-down" data-aos-duration="2000">
+
+        <div class="cards">
+          <div class="card text-center text-wrap h-auto w-auto">
+            <div class="container">
+              <i class="fas fa-tools"><span class="card-title-1 text-center text-wrap">PSD & XD</span></i>
+              <p>Looking to bring your stunning design to life? Look no further! I specialize in converting your PSD or
+                XD design templates into a fully functional, pixel-perfect website. My expertise in HTML5 and CSS3
+                allows me to create a seamless and visually pleasing user experience. Whether you already have a design
+                in mind or need help finding a solution, I am here to assist you. With my proficiency in PSD and XD
+                design conversion, you can be sure that your website will reflect your unique vision and brand. Let me
+                help you turn your design into a reality with a high-quality, responsive website.</p>
+            </div>
+            <img class="card-ellipse-grey-1 text-center position-absolute top-100 start-50 translate-middle"
+              src="images/Ellipse12.png" alt="">
+          </div>
+
+
+
+          <div class="card  text-center h-auto w-auto">
+            <div class="container">
+              <i class="fas fa-laptop-code"><span class="card-title-1 text-center text-wrap">Development</span></i>
+              <p>As a professional developer, I understand the importance of creating websites that are not only
+                visually appealing but also practical and functional. That's why I offer development services that focus
+                on creating mobile-responsive, SEO-friendly, and fast-loading websites for individuals and small
+                businesses. I understand that every client has unique needs, which is why I work closely with you to
+                understand your goals and objectives, and create a website that is tailored to your specific
+                requirements.
+
+                With my expertise in web development, I will create a website that is not only easy to navigate but also
+                optimized for search engines, ensuring that your site is easily discoverable by your target audience.
+                And with fast loading times, your website visitors will have a seamless experience. My goal is to
+                develop a productive and results-driven website that will help you achieve your business objectives.
+                Let's work together to create a website that is not only aesthetically pleasing but also effective in
+                driving results for your business.</p>
+            </div>
+            <img class="card-ellipse-red text-center position-absolute top-100 start-50 translate-middle"
+              src="images/Ellipse13.png" alt="">
+          </div>
+
+
+          <div class="card text-center h-auto w-auto">
+            <div class="container">
+              <i class="fab fa-wordpress"><span class="card-title-1 text-center text-wrap">WordPress</span></i>
+              <p>WordPress is the world's most popular content management system, powering millions of websites on the
+                internet. It offers a user-friendly interface and powerful features that make it easy for you to manage
+                your own content without the need for a developer. Whether you're looking to create a simple blog or a
+                complex e-commerce website, WordPress can handle it all.
+
+                At my agency, I specialize in building custom WordPress solutions that are tailored to your specific
+                needs and goals. I have extensive experience in creating beautiful, responsive websites that are easy to
+                navigate and are optimized for search engines. I understand that every business has unique requirements,
+                and I work closely with you to understand your vision and create a website that is tailored to your
+                needs. With a custom WordPress solution, you'll have a website that is not only visually appealing but
+                also functional and easy to manage. Let's work together to create a website that will help your business
+                thrive.</p>
+            </div>
+            <img class="card-ellipse-grey-2 text-center position-absolute top-100 start-50 translate-middle"
+              src="images/Ellipse12.png" alt="">
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+
+
+
+<section id="features">
+  <div data-aos="fade-down" data-aos-duration="2000">
+    <!--<img class="seperator-dot text-center mt-5  " src="images/seperator.png" alt="seperator dot">-->
+  </div>
+  <div class="intro-text-2">
+    <div class="container">
+      <div data-aos="fade-down" data-aos-duration="2000">
+        <h1 class="features-header mt-5 text-center">Features</h1>
+      </div>
+    </div>
+    <div data-aos="fade-down" data-aos-duration="2000">
+      <div class="service-cards">
+        <div class="service-card text-center">
+          <div class="container">
+            <i class="fas fa-headset fa-2x mt-3"><span class="card-title-2 mt-3">Support and Troubleshooting</span></i>
+            <p class="text-center mt-4">Available for assistance with any issues or concerns.
+              Contact me via email or phone for a quick resolution.</p>
+          </div>
+          <img class="service-circle text-center position-absolute top-50 start-50 translate-middle"
+            src="images/bigcircle.png">
+
+        </div>
+
+
+
+        <div class="service-card text-center">
+          <div class="container">
+            <i class="far fa-edit fa-2x mt-3"><span class="card-title-2">Lifetime Free Revisions and Updates</span></i>
+            <p class="text-center mt-4">Enjoy free updates and revisions for the lifetime of your website.
+              Keep your site current and running smoothly without any extra cost.
+              Focus on growing your business while the technicalities are handled.</p>
+          </div>
+        </div>
+
+
+        <div class="service-card text-center">
+          <div class="container mt-3">
+            <i class="fas fa-book-open fa-2x"><span class="card-title-2">Education and Self-Management</span></i>
+            <p class="text-center mt-4">Learn how to manage your website on your own terms.
+              Personalized training to suit your individual needs and skill level.
+              Empower yourself with the knowledge and tools to take control of your website.
+              Available for one-on-one training sessions or workshops.</p>
+          </div>
+        </div>
+
+        <div class="service-card text-center">
+          <div class="container mt-3">
+            <i class="fas fa-tachometer-alt fa-2x"><span class="card-title-2">High Performance Websites</span></i>
+            <p class="text-center mt-4">Utilize the latest and cleanest code for optimal performance.
+              Fast loading times for a better user experience.
+              Optimized for search engines for improved visibility and ranking.
+              Implement best practices to ensure high performance and security.</p>
+          </div>
+        </div>
+
+        <div class="service-card text-center">
+          <div class="container mt-3">
+            <i class="fas fa-mobile-alt fa-2x"><span class="card-title-2">Mobile-Responsive Design</span></i>
+            <p class="text-center mt-4">Your website will adapt to all screen sizes and devices.
+              User-friendly experience for all visitors regardless of device.
+              Built with mobile responsiveness as a priority for optimal viewing on any device.
+              Ensures a seamless experience for all users, increasing engagement and conversions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section id="examples">
+
+  <div data-aos="fade-down" data-aos-duration="2000">
+    <img class="seperator-dot-2 text-center" src="images/seperator.png" alt="seperator dot">
+  </div>
+  <div data-aos="fade-down" data-aos-duration="2000">
+    <h1 class="examples-header text-center">Portfolio & Themes</h1>
+  </div>
+  <div class="container-fluid">
+    <hr class="line-example-1"
+      style="height:3px; width:85%; margin-left:10%; border-width:0; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0)">
+  </div>
+
+  <div data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="row g-0 position-relative p-5">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="images/screencapture-areli-lovestoblog-2021-12-12-23_48_58.jpg" class="w-100 m-auto img-thumbnail"
+          alt="...">
+      </div>
+      <div class="col-md-6 p-4 ps-md-0">
+        <h5 class="mt-0">"Areli"</h5>
+        <p>
+          Introducing Areli, the ultimate lifestyle blog template built on the powerful Bootstrap 5 framework. This
+          child theme is based on the bootScore 5 parent theme and offers a fully customizable design, complete with
+          customizable colors, images, social media icons, and more. The template features a custom sidebar that
+          displays your latest blog posts and a mini slider to showcase your top content. With animate on scroll effects
+          using the AOS library, Areli adds a dynamic touch to your website. A special section is also included for
+          showcasing your Instagram feed or an image carousel plugin. Areli fully utilizes the Gutenberg block editor,
+          making it easy for you to create and manage your content. Built with HTML, CSS, Javascript, PHP, and Bootstrap
+          5, Areli is a reliable and robust choice for your lifestyle blog.
+        </p>
+        <a href="https://github.com/acrighton1/areliwordpress" target="_blank" rel="noopener noreferrer"
+          class="btn btn-dark">GitHub</a>
+        <a href="http://areli.lovestoblog.com/" target="_blank" rel="noopener noreferrer" class="btn btn-dark">Live
+          Demo</a>
+        <a href="https://www.etsy.com/shop/ACWebStudio" target="_blank" rel="noopener noreferrer"
+          class="btn btn-dark">Buy On <i class="fab fa-etsy" alt="Etsy"></i> </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <hr class="line-example-2"
+      style="height:3px; width:85%; margin-left:10%; border-width:0; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0)">
+  </div>
+
+  <div data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="row g-0 position-relative p-5">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="images/lone.jpg" class="w-100 img-thumbnail" alt="...">
+      </div>
+      <div class="col-md-6 p-4 ps-md-0">
+        <h5 class="mt-0">"Lone Traveler"</h5>
+        <p>"Lone Traveler" - a sleek and modern travel blog template based on the powerful Bootstrap 5 framework. This
+          child theme boasts a clean and minimalistic design that is fully customizable, with multiple widget areas and
+          sections to showcase your content. Utilizing the latest version of Bootstrap 5, "Lone Traveler" is fully
+          responsive, ensuring that your blog looks great on any device. The theme features a slider that is optimized
+          for all screen sizes, making it easy for your readers to navigate your latest content. The front page
+          showcases your latest blog posts in beautiful, easy-to-read cards, making it easy for your readers to find
+          what they're looking for. Built with HTML, CSS, Javascript, PHP, and Bootstrap 5, "Lone Traveler" is a
+          reliable and robust choice for your travel blog.</p>
+        <a href="https://github.com/acrighton1/lonetravwordpress" target="_blank" rel="noopener noreferrer"
+          class="btn btn-dark">GitHub</a>
+        <a href="https://lonetraveler10.wpengine.com/" target="_blank" rel="noopener noreferrer"
+          class="btn btn-dark">Live Demo</a>
+        <a href="https://www.etsy.com/shop/ACWebStudio" target="_blank" rel="noopener noreferrer"
+          class="btn btn-dark">Buy On <i class="fab fa-etsy" alt="Etsy"></i> </a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <hr class="line-example-3"
+      style="height:3px; width:85%; margin-left:10%; border-width:0; color:rgb(0, 0, 0); background-color:rgb(0, 0, 0)">
+  </div>
+
+
+</section>
+
+
+<!-- <section id="price-section">
+                              <div class="background">
+                                <div class="container">
+                                  <div class="panel pricing-table">
+                                    
+                                    <div class="pricing-plan">
+                                      <i class="pricing-img fas fa-balance-scale fa-5x"></i>
+                                      <h2 class="pricing-header">Managed Custom Website</h2> 
+                                      <ul class="pricing-features">
+                                        <li class="pricing-features-item">Fully managed custom website package</li>
+                                        <li class="pricing-features-item">Everything is handled for you, including hosting setup and maintenance</li>
+                                        <li class="pricing-features-item">Lifetime free updates and revisions ensure your website stays current and effective</li>                                        
+                                        <li class="pricing-features-item">I will work closely with you to ensure your website exceeds your expectations and effectively represents your brand.
+                                          Don't let the hassle of website development hold you back, choose our fully managed custom website package today.</li>
+                                      </ul>
+                                      <span class="pricing-price">Contact Me For Pricing</span>
+                                      <a href="mailto:acdev@aaroncrighton.com" class="pricing-button">Contact Me</a>                                  
+                                    </div>
+                                    
+                                    <div class="pricing-plan">
+                                      <i class="pricing-img fas fa-code fa-5x"></i>
+                                      <h2 class="pricing-header">Custom WordPress or Static Website</h2>
+                                      <ul class="pricing-features">
+                                        <li class="pricing-features-item">Custom WordPress or Static Website tailored to your specific needs</li>
+                                        <li class="pricing-features-item">PSD or XD design conversion to WordPress or Static Website</li>
+                                        <li class="pricing-features-item">Hosting setup and management</li>
+                                        <li class="pricing-features-item">You will have full control over your website and can make changes yourself, but will also receive free updates and revisions as long as the site is active</li>
+                                      </ul>
+                                      <span class="pricing-price">Contact me for pricing</span>
+                                      <a href="mailto:acdev@aaroncrighton.com" class="pricing-button is-featured">Contact Me</a>
+                                    </div>
+                                    
+                                    <div class="pricing-plan">
+                                      <i class="pricing-img far fa-paper-plane fa-5x"></i>
+                                      <h2 class="pricing-header">Other Development Services</h2>
+                                      <ul class="pricing-features">
+                                        <li class="pricing-features-item">WordPress installation and customization</li>
+                                        <li class="pricing-features-item">Custom code modifications to meet your specific needs</li>
+                                        <li class="pricing-features-item">Revisions and updates to keep your website up-to-date</li>
+                                        <li class="pricing-features-item">Professional consultations to discuss your project and development needs</li>
+                                      </ul>
+                                      <span class="pricing-price">Contact me for more information and pricing for these services</span>
+                                      <a href="mailto:acdev@aaroncrighton.com" class="pricing-button">Contact Me</a>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </section>-->
+
+
+<section id="about">
+  <div class="about-me">
+    <div class="me-images">
+      <div data-aos="fade-down" data-aos-duration="2000">
+        <img class="about-image-1" src="images/ABOUT.png" alt="About" loading="lazy">
+
+        <img class="me-image img-fluid" src="images/ME.png" loading="lazy" alt="ME">
+      </div>
+    </div>
+  </div>
+  <div class="about-text">
+    <div class="container">
+      <div data-aos="fade-down" data-aos-duration="2000">
+        <img class="portfoliopic" src="images/Portfoliopicture.png" alt="profilepic">
+        <p class="about-me-text d-flex justify-content-center text-center mx-5 text-wrap"> I have always had a passion
+          for technology and problem-solving, which led me to pursue a career in this field.<br><br>
+          I am also an avid reader and enjoy spending time outdoors, particularly hiking, camping, and fishing. I love
+          the opportunity to connect with nature and clear my mind. I am always looking for new challenges and
+          opportunities to improve my skills and knowledge in software engineering and web development, and I believe
+          that there is always room to learn and grow in this rapidly-evolving field.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="container-fluid img-fluid">
+  <div data-aos="fade-down" data-aos-duration="2000">
+    <hr style="height:3px; width:70%; margin-left:15%; border-width:0; color:red; background-color:red">
+  </div>
+</div>
+<div class="contact-me">
+  <div class="container">
+    <div data-aos="fade-down" data-aos-duration="2000">
+      <p class="contact-text about-me-text d-flex justify-content-center text-center mx-5 text-wrap">If you like what
+        you see here, and would like to get in touch,<br> click the envelope below to contact me!</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<footer id="contact" class="footer">
+  <div class="container">
+
+    <ul class="text-center">
+      <li><a href="https://github.com/acrighton1" target="_blank" rel="noopener noreferrer" alt="github"><i
+            class="fab fa-github fa-3x" alt="github"></i></li></a>
+      <li><a href="https://linkedin.com/in/aaroncrighton" target="_blank" rel="noopener noreferrer" alt="LinkedIn"><i
+            class="fab fa-linkedin fa-3x" alt="LinkedIn"></i></li></a>
+      <li><a href="https://acwebdevstudio.etsy.com/" target="_blank" rel="noopener noreferrer" alt="Etsy"><i
+            class="fab fa-etsy fa-3x" alt="Etsy"></i></li></a>
+      <li><a href="mailto:acdev@aaroncrighton.com" alt="email me"><i class="far fa-envelope fa-3x" alt="email me"></i>
+      </li></a>
+      <li><a href="https://wpengine.com/more/partnerspecialoffer/?w_agcid=vK6PltbH" target="_blank"
+          rel="noopener noreferrer" alt="WP Engine Offer"><img class="agencyp" src="images/agencyp.png"
+            alt="agency partner badge"></a></li>
+
+
+
+
+  </div>
+
+  <p class="copyright-text text-center d-flex justify-content-center">© 2024 Aaron Crighton. All rights reserved.</p>
+
+  </ul>
+
+
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+</footer>
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/mailgo@0.12.1/dist/mailgo.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
